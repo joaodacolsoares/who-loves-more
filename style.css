@@ -1,0 +1,56 @@
+body {
+  font-family: 'Clicker Script', cursive;
+  margin: 0;
+  padding: 0;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 100vw;
+  height: 100vh;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 5rem;
+  margin: 0;
+  line-height: 0.8;
+}
+
+p {
+  margin: 0;
+}
+
+span {
+  font-size: 4rem;
+  font-weight: 500;
+}
+
+.loves-more {
+  font-size: 3rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+.date {
+  margin: 0;
+  font-size: 3rem;
+}
+
+@media (max-width: 840px) {
+  .hide-md {
+    display: none !important;
+  }
+}
+@media (min-width: 840px) {
+  .hide-xl {
+    display: none !important;
+  }
+}
+    
