@@ -23,34 +23,10 @@ body {
   line-height: 0.8;
 }
 
-p {
-  margin: 0;
-}
-
-span {
-  font-size: 4rem;
-  font-weight: 500;
-}
-
 .loves-more {
   font-size: 3rem;
   font-weight: 500;
   margin: 0;
+  position: absolute;
+  bottom: 0;
 }
-
-.date {
-  margin: 0;
-  font-size: 3rem;
-}
-
-@media (max-width: 840px) {
-  .hide-md {
-    display: none !important;
-  }
-}
-@media (min-width: 840px) {
-  .hide-xl {
-    display: none !important;
-  }
-}
-    
