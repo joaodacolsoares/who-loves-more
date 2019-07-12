@@ -5,7 +5,7 @@
   const diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24)) - 1;
 
   if ((diffDays) % 2 === 0) return 'Fran';
-  return 'John';
+  return 'João';
 }
 
 function setWhoLovesMore() {
