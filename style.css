@@ -13,6 +13,14 @@ body {
   height: 100vh;
 }
 
+.time {
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 0;
+  position: absolute;
+  top: 0;
+}
+
 .title {
   display: flex;
   align-items: center;
