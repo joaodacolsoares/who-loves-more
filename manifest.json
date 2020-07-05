@@ -3,7 +3,6 @@
     "short_name": "Loves More",
     "theme_color": "#2196f3",
     "background_color": "#2196f3",
-    "display": "browser",
     "orientation": "portrait",
     "start_url": "/who-loves-more",
     "icons": [
