@@ -1,8 +1,8 @@
 {
     "name": "Who Loves More",
     "short_name": "Loves More",
-    "theme_color": "#2196f3",
-    "background_color": "#2196f3",
+    "theme_color": "#2196f4",
+    "background_color": "#2196f4",
     "orientation": "portrait",
     "start_url": "index.html",
     "display": "fullscreen",
