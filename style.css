@@ -31,6 +31,24 @@ body {
   line-height: 0.8;
 }
 
+.start-day-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: column;
+  flex-direction: column;
+}
+
+.start-day {
+  font-size: 2rem;
+}
+
+.heart-image {
+  width: 100%;
+  bottom: 35%;
+  position: absolute;
+}
+
 .loves-more {
   font-size: 3rem;
   font-weight: 500;

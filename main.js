@@ -17,6 +17,13 @@ function getDaysTogether() {
   return diffDays;
 }
 
+function checkIfWeAreInTheStartDay() {
+  const today = new Date();
+  if(today.getUTCDate() != '27') {
+    document.getElementById('start-day-container').style.display = 'none';
+  }
+}
+
 function setWhoLovesMore() {
   const titleId = 'person-who-loves-more'
   document.getElementById(titleId).innerHTML = getOurInformation(); 
@@ -30,6 +37,7 @@ function setTimeTogether() {
 function bootstrap() {
   setWhoLovesMore()
   setTimeTogether()
+  checkIfWeAreInTheStartDay();
 
   if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
