@@ -19,7 +19,7 @@ function getDaysTogether() {
 
 function checkIfWeAreInTheStartDay() {
   const today = new Date();
-  if(today.getUTCDate() != '27') {
+  if(today.getUTCDate() != '24') {
     document.getElementById('start-day-container').style.display = 'none';
   }
 }
